@@ -25,9 +25,12 @@ class Shape{
             element.style.left = `${left - size / 2}px`;
             element.style.fontSize = `${size}px`;
 
+            console.log(size);
+
             if(!isReset)
                 canvas.append(element);
-            else if(isReset || size == 0){
+                
+            if(isReset || size == 0){
                 clearInterval(drawShape);
                 element.remove();
             }
