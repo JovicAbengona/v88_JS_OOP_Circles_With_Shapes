@@ -13,6 +13,7 @@ section{
 }
 
 .navbar{
+    background-color: #fafafa;
     padding: 15px;
 }
 
@@ -36,7 +37,7 @@ section{
 }
 
 .shapes{
-    background-color: white;
+    background-color: transparent;
     margin-right: 15px;
     border-radius: 4px;
     font-size: 18px;    
@@ -44,10 +45,12 @@ section{
 }
 
 .reset{
+    background-color: #e63946;
     margin-right: 15px;
     border-radius: 4px;
     padding: 10px 15px;
     font-weight: 600;
+    color: white;
     border: none;
     width: 100px;
     float: right;
@@ -61,5 +64,4 @@ section{
     margin-top: 10px;
     min-height: 100vh;
     width: 100%;
-    z-index: 1;
 }
